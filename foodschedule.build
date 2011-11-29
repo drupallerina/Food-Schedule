@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.9"
 
-projects[foodle][type] = "profile"
-projects[foodle][download][type] = "git"
-projects[foodle][download][url] = ""
-projects[foodle][download][branch] = "master"
+projects[foodschedule][type] = "profile"
+projects[foodschedule][download][type] = "git"
+projects[foodschedule][download][url] = "git://github.com/drupallerina/Food-Schedule.git"
+projects[foodschedule][download][branch] = "master"

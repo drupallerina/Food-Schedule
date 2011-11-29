@@ -1,4 +1,4 @@
-name = foodle
+name = foodschedule
 description = Food Management and Recipe Database
 core = 7.x
 theme = rubik
@@ -54,10 +54,10 @@ users[siteadmin][status] = 1
 ; variables need to be set if you want to bypass the Configuration form during
 ; installation (@see Users for more information on how this is accomplished).
 ; -----------------------------------------------------------------------------
-variables[site_name] = foodle
+variables[site_name] = foodschedule
 variables[site_mail] = testing@testing
 
-variables[site_footer] = foodle
+variables[site_footer] = foodschedule
 variables[site_frontpage] = node/1
 variables[theme_settings][toggle_node_info_page] = 0
 
