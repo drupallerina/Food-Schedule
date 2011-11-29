@@ -12,13 +12,27 @@ theme = adaptivetheme_admin
 ; dependencies[] array. Any dependencies of the listed modules will be detected
 ; and enabled automatically.
 ; -----------------------------------------------------------------------------
-dependencies[] = filter
-dependencies[] = help
-dependencies[] = menu
-dependencies[] = node
-dependencies[] = path
-dependencies[] = system
-dependencies[] = user
+dependencies[] = block
+ dependencies[] = color
+ dependencies[] = comment
+ dependencies[] = contextual
+dependencies[] = dashboard
+ dependencies[] = help
+ dependencies[] = image
+ dependencies[] = list
+ dependencies[] = menu
+ dependencies[] = number
+ dependencies[] = options
+ dependencies[] = path
+ dependencies[] = taxonomy
+ dependencies[] = dblog
+ dependencies[] = search
+ dependencies[] = shortcut
+ dependencies[] = toolbar
+ dependencies[] = overlay
+ dependencies[] = field_ui
+ dependencies[] = file
+ dependencies[] = rdf
 
 
 ; -----------------------------------------------------------------------------
