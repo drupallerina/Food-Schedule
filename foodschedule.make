@@ -30,6 +30,13 @@ projects[token][version] = "1.0-beta7"
 
 projects[views][version] = "3.0-rc3"
 
+;Features
+projects[nikas_cookbook][subdir] = "custom_features"
+projects[nikas_cookbook][type] = "module"
+projects[nikas_cookbook][download][type] = "git"
+projects[nikas_cookbook][download][url] = "git://github.com/drupallerina/nikas_cookbook.git"
+projects[nikas_cookbook][download][branch] = "master"
+
 ;Themes
 projects[adaptivetheme][version] = "2.1"
 

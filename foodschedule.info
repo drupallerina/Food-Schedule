@@ -35,6 +35,14 @@ dependencies[] = dashboard
  dependencies[] = rdf
 
 
+dependencies[] = views
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = ctools
+dependencies[] = recipe
+
+dependencies[] = nikas_cookbook
+
 ; -----------------------------------------------------------------------------
 ; Users
 ; -----------------------------------------------------------------------------
