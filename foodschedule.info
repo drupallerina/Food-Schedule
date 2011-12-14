@@ -2,7 +2,7 @@ name = foodschedule
 description = Food Management and Recipe Database
 core = 7.x
 theme = bartik
-;base = 
+base = standard
 
 
 ; -----------------------------------------------------------------------------
