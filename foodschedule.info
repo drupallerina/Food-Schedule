@@ -45,6 +45,7 @@ dependencies[] = nikas_cookbook
 
 files[] = foodschedule.profile
 files[] = foodschedule.install
+files[] = foodschedule.theme
 
 ; -----------------------------------------------------------------------------
 ; Users
@@ -83,7 +84,7 @@ variables[site_name] = foodschedule
 variables[site_mail] = testing@testing
 
 variables[site_footer] = foodschedule
-variables[site_frontpage] = node/1
+variables[site_frontpage] = speisendatenbank
 variables[theme_settings][toggle_node_info_page] = 0
 
 ; You may also want to set the clean url variable if you don't need clean urls.
