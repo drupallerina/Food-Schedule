@@ -43,6 +43,9 @@ dependencies[] = recipe
 
 dependencies[] = nikas_cookbook
 
+files[] = foodschedule.profile
+files[] = foodschedule.install
+
 ; -----------------------------------------------------------------------------
 ; Users
 ; -----------------------------------------------------------------------------

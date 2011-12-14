@@ -1,0 +1,37 @@
+<?php
+/*
+ * enable blocks
+ */
+
+/**
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function D7PT_install() {
+
+
+$default_theme = variable_get('theme_default', 'bartik');
+$admin_theme = 'seven';
+$values = array(
+  array(
+    'module' => 'system', //module that generates this block
+    'delta' => 'features',
+    'theme' => $default_theme, //theme in which this block will be displayed
+    'status' => 1, //1 - block is enabled, 0 - disabled
+    'weight' => 0,
+    'region' => 'content', //region, in which block will be dispalyed
+    'pages' => '', //pages on which block should be displayed
+    'cache' => -1, //-1 - not to cache
+  ),
+);
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  foreach ($values as $record) {
+    $query->values($record);
+  }
+  $query->execute();
+
+
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+  standard_install();
+}
