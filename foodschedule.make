@@ -16,6 +16,7 @@ projects[entity][version] = "1.0-rc1"
 
 projects[features][version] = "1.0-beta4"
 
+projects[features_orphans][version] = "1.1"
 projects[flag][version] = "2.0-beta6"
 
 projects[libraries][version] = "1.0"
